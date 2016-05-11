@@ -1,0 +1,36 @@
+{
+  "name": "caesium-less",
+  "version": "0.0.1-alpha1",
+  "description": "Less Compiler for Caesium",
+  "main": "caesium-less.js",
+  "scripts": {
+    "test": "./node_modules/.bin/mocha ./tests/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CaesiumJS/caesium-less.git"
+  },
+  "keywords": [
+    "Less",
+    "caesium",
+    "compiler"
+  ],
+  "author": "Adam Laycock <adam@arcath.net>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/CaesiumJS/caesium-less/issues"
+  },
+  "homepage": "https://github.com/CaesiumJS/caesium-less#readme",
+  "dependencies": {
+    "bluebird": "^3.3.5",
+    "less": "^2.7.1",
+    "mkdirp": "^0.5.1"
+  },
+  "devDependencies": {
+    "caesium": "0.0.1-alpha2",
+    "chai": "^3.5.0",
+    "front-matter": "^2.0.7",
+    "mocha": "^2.4.5",
+    "rimraf": "^2.5.2"
+  }
+}
