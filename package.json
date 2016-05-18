@@ -1,6 +1,6 @@
 {
   "name": "caesium-less",
-  "version": "0.0.1-alpha1",
+  "version": "0.0.1-alpha2",
   "description": "Less Compiler for Caesium",
   "main": "caesium-less.js",
   "scripts": {

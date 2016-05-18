@@ -17,7 +17,7 @@ describe('Caesium Less', function(){
     paths = Mod.createRoute(fileObject)
     fileObject.paths = paths
 
-    expect(paths.route).to.equal('/example.css')
+    expect(paths.path).to.equal('/example.css')
     expect(paths.targetFile).to.equal('/example.css')
     expect(paths.folder).to.equal('')
   })
